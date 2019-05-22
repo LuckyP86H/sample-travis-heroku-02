@@ -4,7 +4,8 @@
   "description": "this repo illustrate using git heroku and travis together at last ",
   "main": "server.js",
   "scripts": {
-    "test": "npm run lint server.js && mocha ./tests/index-spec.js"
+    "test": "npm run lint server.js && mocha ./tests/index-spec.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -25,10 +26,15 @@
   "homepage": "https://github.com/LuckyP86H/sample-travis-heroku-02#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "eslint-config-airbnb": "^17.1.0",
     "express": "^4.16.4",
-    "mocha": "^6.1.4"
+    "lint": "^1.1.2",
+    "mocha": "^6.1.4",
+    "stable": "^0.1.8"
   },
   "devDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.2"
   }
 }

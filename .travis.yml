@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- stable
+- '6'
+- '4'
+deploy:
+  provider: heroku
+  api_key: 6b4162d0-3945-45ae-ae1f-e8db4137ab84
+  app: fierce-lake-85276
+  on:
+    repo: LuckyP86H/sample-travis-heroku-02
