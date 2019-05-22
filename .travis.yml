@@ -1,11 +1,10 @@
 language: node_js
 node_js:
 - stable
-- '6'
-- '4'
 deploy:
   provider: heroku
   api_key: 6b4162d0-3945-45ae-ae1f-e8db4137ab84
+    secure: "zzDD++PBBjnu9HfucsRkmiu3VY63Dnllmp8DUY9gqo4YSm4aSFnvgq2jS0GK0l1IoJUqeg9XQh6Yx5oKHdgqyNXLxx6F8ifhxnw55IwSh/Xpc/S19QDYUf4o/Bz0u6hXgI7BjGbPZIO6EqsqmT7brAUBIbehv0Txvo/Se6drNoQuFLdYYR0ihCBlvPJgP1fh+V2SYJ5PsSR/wqcSwAjJM1WdIdBAbJ+WpttP1geL9bdeQ4UvVVMGd+Te2WYzLvcSeeuLJb5CDhPdgERrsw6OgbRGglg3Rk7PtaC0uDSUpDiyqdiJj+7+kIPT0xQo28E1GaHibYazL8Cm7iz9xv9IRaaCSFDK0aLzJuRYENo/T+unRb/bxbOCfvCh+GpRhX2TOwisObjE48GGKYbZkzumbkTsJ5CwZHyPi8IRT+g5wUM/hP4gQeekmWiPBZuaCnZaR94XxSL18qYL1hmwPScRgX+SnJ1D6A6e2Dnb7EpgNZr6jC+S9rZjISkK7THbwB7+WEytqPJw30op4VXqiTPjAlOLJt809kkSsuyMwblwRIlP1GAcdCBvwoRnO+5QTVRSLV3aaYAeyws/EI96CGo47ReHoFDcu8DZG+gMmltl4tj8OS6Z5HYOAq9dpa8wyskGeafagjvDN46YWKidUuAa5s2jeeI98eYl9NLIUQutUs4="
   app: fierce-lake-85276
   on:
     repo: LuckyP86H/sample-travis-heroku-02
